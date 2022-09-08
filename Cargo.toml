@@ -1,0 +1,13 @@
+[package]
+name = "tdx-krunfw"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arch_gen = { path = "../libkrun/src/arch_gen" }
+libc = "*"
+hex = "0.4.3"
+sha2 = "0.10.2"
+zeroize = "1.5.4"
